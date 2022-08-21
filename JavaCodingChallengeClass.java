@@ -17,11 +17,11 @@ public class JavaCodingChallengeClass {
     public void printTextFileContent() {
         this.setTextFileContent();
 
-        // System.out.println(this.textFileContent);
+        System.out.println(this.textFileContent);
         this.setAllWords();
         this.setWordCounts();
-        // System.out.println(this.allWords.toString());
-        // this.printWordCount();
+        System.out.println(this.allWords.toString());
+        this.printWordCount();
     }
 
     public void setTextFileContent() {
